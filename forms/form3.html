@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HW - HOW TO SET A DEFAULT VALUES IN THE DROP DOWN LIST? -->
+    <form action="">
+        <h2>Complex Form</h2><br>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="name">
+
+    
+            <label for="mail">Enter your mail</label>
+            <input type="email" id="mail" name="mail">
+            
+    
+            <label for="tel">Enter your number</label>
+            <input type="tel" id="tel" name="tel">
+            
+            <label for="date">date of birth</label>
+            <input type="date" id="date" name="date">
+
+            <label for="r1">Male</label>
+            <input type="radio" id="r1" name ="gen" value="male">
+            <label for="r2">Female</label>
+            <input type="radio" id="r2" name ="gen" value="fmale">
+
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="india">india</option>
+                <option value="us">us</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Adress</legend>
+            <label for="stree">stree</label>
+            <input type="text" id="stree" name="stree">
+
+            <label for="city">city</label>
+            <input type="text" id="city" name="city">
+
+            <label for="state">state</label>
+            <input type="text" id="state" name="state">
+
+            <label for="code">code</label>
+            <input type="text" id="code" name="code">
+        </fieldset>
+        <fieldset>
+            <legend>other Information</legend>
+            <label for="txt">comments</label>
+        <textarea name="txt" id="txt" cols="30" rows="10"></textarea>
+        <label for="tems">i agree terms of service</label>
+        <input type="checkbox" name="tems" id="tems">
+        </fieldset>
+
+        <input type="submit" value="submit" id="">
+    </form>
+</body>
+</html>
